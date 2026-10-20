@@ -17,6 +17,8 @@ jobs:
           distribution: temurin
           java-version: '17'
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
       - name: Install Android SDK packages
         run: sdkmanager 'platforms;android-36' 'build-tools;36.0.0'
       - name: Build English Android 11 APK
@@ -26,4 +28,3 @@ jobs:
           name: FreeMyTV-English-Android11-${{ github.run_number }}
           path: FreeMyTV.apk
           retention-days: 30
-
