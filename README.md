@@ -56,4 +56,3 @@ The APK is `FreeMyTV.apk`. The build creates a local signing key if needed. Keep
 - Weather and crypto widgets off by default; no TMDB key or account is bundled.
 - No credentials are required. Your TV settings stay on the device.
 - Source is licensed under MIT. See [`LICENSE`](LICENSE) and the upstream [Free My TV](https://github.com/simbasjungles/free-my-tv) project.
-
